@@ -5,7 +5,7 @@ Probably this https://github.com/npm/npm/issues/12184
 ## Issue
 
 I want to `npm install --only=dev` in order to install only my dev dependencies.
-Doing this installs all of my dev dependencies except `minimatch`, `mkdirp`, and `optimist`.`
+Doing this installs all of my dev dependencies except `minimatch`, `mkdirp`, and `optimist`.
 This are installed if I do `npm install --only=prod`, or `npm install`, or `npm install --dev`.
 
 ## Severity
@@ -28,4 +28,6 @@ npm list minimatch mkdirp optimist
 ```
 
 My NVM, node and NPM versions are shown in `versions.txt`.
+
+The state of my package-lock with `--only=dev`, `--only=prod`, and bare `npm install`s are also here.
 
