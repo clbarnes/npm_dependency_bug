@@ -2,6 +2,8 @@
 
 Probably this https://github.com/npm/npm/issues/12184
 
+In the recent bug tracker, it's here https://npm.community/t/dev-only-only-dev-install-fails-when-module-is-a-dependency-of-multiple-places/2613
+
 ## Issue
 
 I want to `npm install --only=dev` in order to install only my dev dependencies.
